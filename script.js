@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const cartItems = document.querySelectorAll(".cart-item");
     const totalElement = document.getElementById("total-price");
-  
+  //select dom elements
     cartItems.forEach((item) => {
       const minusBtn = item.querySelector(".minus-btn");
       const plusBtn = item.querySelector(".plus-btn");
